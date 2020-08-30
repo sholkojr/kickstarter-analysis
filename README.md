@@ -33,9 +33,17 @@ Another challenge or discovery found was when rows were added to the Datatable. 
 
 Analysis of the Kickstarter data provided the following conclusions.
 
-## Kickstarter Launch Date
+### Kickstarter Launch Date
 
+Upon reviewing the following [chart](https://https://github.com/sholkojr/kickstarter-analysis/blob/master/Theater_Outcomes_vs_Launch.png) based on Kickstarters in the US in the "plays" subcategory, the failure and success rates appear to more or less track with each other until May. During May, the ratio of successful to failed Kickstarters is at its best and the overall volume is highest.  However, this advantage steadily decrease over the summer months to September.  This would indicate that it is best to launch in May if possible, or during the summer months at the latest.
 
+### Kickstarter Goal vs. Outcome
 
+Based on the review of US Kickstarters in the "plays" subcatergory, the attached [chart](https://https://https://github.com/sholkojr/kickstarter-analysis/blob/master/Outcomes_vs_Goals.png) shows how the target amount appears to influence the chances of success.  There appears that there is an inverse relation between the size of the target and its chances of success, which makes intuitive sense.  The chart appears to reverse between $35k and $45k, but this can be attributed to the relative lack of data.  The number of Kickstarters decreases as the Goal amount increases.
 
+### Analysis Limitations
+
+One of the key limitation of the dataset is the lack of the information on the donations themselves.  It would have been beneficial to understand the source of the donations to answer questions on whether the success of certain plays were based on many small donations or the beneficiary of a small number of large donations (or a single patron).  As an example, if the client had information on the key patrons, they could understand these individuals possible preferences (drama vs. comedy as example) and potentially court these individuals for their patronage.
+
+The Launch data graph would have benefitted from a showing the percentages on a second y-axis, which would have better shown the relative success rate.  The Goal vs. Outcome chart would have benefitted from the reverse, showing the absolute numbers to show the statistical significance of the data in the lower Goal ranges.
 
