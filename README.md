@@ -35,11 +35,11 @@ Analysis of the Kickstarter data provided the following conclusions.
 
 ### Kickstarter Launch Date
 
-Upon reviewing the following [chart](github.com/sholkojr/kickstarter-analysis/blob/master/Theater_Outcomes_vs_Launch.png) based on Kickstarters in the US in the "plays" subcategory, the failure and success rates appear to more or less track with each other until May. During May, the ratio of successful to failed Kickstarters is at its best and the overall volume is highest.  However, this advantage steadily decrease over the summer months to September.  This would indicate that it is best to launch in May if possible, or during the summer months at the latest.
+Upon reviewing the following [chart](https://github.com/sholkojr/kickstarter-analysis/blob/master/Theater_Outcomes_vs_Launch.png) based on Kickstarters in the US in the "plays" subcategory, the failure and success rates appear to more or less track with each other until May. During May, the ratio of successful to failed Kickstarters is at its best and the overall volume is highest.  However, this advantage steadily decrease over the summer months to September.  This would indicate that it is best to launch in May if possible, or during the summer months at the latest.
 
 ### Kickstarter Goal vs. Outcome
 
-Based on the review of US Kickstarters in the "plays" subcatergory, the attached [chart](github.com/sholkojr/kickstarter-analysis/blob/master/Outcomes_vs_Goals.png) shows how the target amount appears to influence the chances of success.  There appears that there is an inverse relation between the size of the target and its chances of success, which makes intuitive sense.  The chart appears to reverse between $35k and $45k, but this can be attributed to the relative lack of data.  The number of Kickstarters decreases as the Goal amount increases.
+Based on the review of US Kickstarters in the "plays" subcatergory, the attached [chart](https://github.com/sholkojr/kickstarter-analysis/blob/master/Outcomes_vs_Goals.png) shows how the target amount appears to influence the chances of success.  There appears that there is an inverse relation between the size of the target and its chances of success, which makes intuitive sense.  The chart appears to reverse between $35k and $45k, but this can be attributed to the relative lack of data.  The number of Kickstarters decreases as the Goal amount increases.
 
 ### Analysis Limitations
 
