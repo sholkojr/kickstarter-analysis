@@ -23,6 +23,9 @@ The third investigation was to understand if the was any relationship between th
 ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000", Kickstarter!$O:$O,"plays")```, which counts the number of rows of the Kickstarter data filtered based on "successfull", that the goal is less than 1000 and that the kickstarter subcategory is "plays."
 
 ### Challenges
-One of the challenges was validating that the COUNTIFS equations were providing the correct answer.  This took some trial-and-error but what accomplished by matching the result of the formula with matching filters on the dataset table and selecting all rows of the resulting filtered data (with count, total and average of the selected cells at the bottom corner of Excel)
+One of the challenges was validating that the COUNTIFS equations were providing the correct answer.  This took some trial-and-error but what accomplished by matching the result of the formula with matching filters on the dataset table and selecting all rows of the resulting filtered data (with count, total and average of the selected cells at the bottom corner of Excel).
+Another challenge or discovery found was when rows were added to the Datatable.  Even though Excel would recognize that the additional row is now part of the Table, it would not be automatically added to the Pivot Table fields (Columns that converted the Oracle date stamp to a readable date as an example).  This had to be performed by Refreshing the data.  This saved time that otherwise would have been spent blowing away the existing Power Pivot table and creating a new one.
+
+
 
 
