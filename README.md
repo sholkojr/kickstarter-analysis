@@ -2,7 +2,9 @@
 
 ## Overview
 The object of this analysis is to better understand when to launch a Kickstarter campaign and realistic funding targets based on recent data for theater production Kickstarters.
-This report was completed for Louise (the project client) to enable her to better understand how her Kickstarter campaign is performing relative to other similar campaigns.
+This report was completed for Louise (the project client) to enable her to better understand how her Kickstarter campaign is performing relative to other similar campaigns.  
+
+This report will break down the analysis of the data (including challenges encountered) and provide a summary of the results of the analysis.
 
 ## Analysis and Challenges
 The analysis was performed using MS Excel utilizing Pivot Tables and Charts to summarize.  The data was supplied from Kickstarter via the Project Client.  The analysis can be broken into three parts:
@@ -24,7 +26,15 @@ The third investigation was to understand if the was any relationship between th
 
 ### Challenges
 One of the challenges was validating that the COUNTIFS equations were providing the correct answer.  This took some trial-and-error but what accomplished by matching the result of the formula with matching filters on the dataset table and selecting all rows of the resulting filtered data (with count, total and average of the selected cells at the bottom corner of Excel).
+
 Another challenge or discovery found was when rows were added to the Datatable.  Even though Excel would recognize that the additional row is now part of the Table, it would not be automatically added to the Pivot Table fields (Columns that converted the Oracle date stamp to a readable date as an example).  This had to be performed by Refreshing the data.  This saved time that otherwise would have been spent blowing away the existing Power Pivot table and creating a new one.
+
+## Results
+
+Analysis of the Kickstarter data provided the following conclusions.
+
+## Kickstarter Launch Date
+
 
 
 
